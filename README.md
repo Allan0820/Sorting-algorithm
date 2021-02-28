@@ -8,10 +8,9 @@ This is a sorting algorithm that i developed that sorts all integer elements in 
 
 
 
-CAUTION- Though this algorithm works and sorts numbers in one pass, This algorithm is CONCEPTUALLY INCOMPETENT as it violates the principles of space complexity and is highly memory intensive.
+CAUTION- Though this algorithm works and sorts numbers in one pass, This algorithm is highly memory intensive. 
 
-This algorithm works the best for consecutive numbers but if nos like 2^34-1 are taken then fails badly with respect to other sorting algorithms.
-I have published this algorithm so as to display my efforts in this area.
+This algorithm works the best for consecutive numbers. But on a closer observation, as the master array becomes more sparse i.e. the separation between numbers increases, then the efficiency of the algorithm starts to decrease linearly . If numbers like 2^34-1 are taken then this algorithm fails badly with respect to other sorting algorithms such as quicksort. I have published this algorithm so as to display my efforts in this area.
 
 
 
